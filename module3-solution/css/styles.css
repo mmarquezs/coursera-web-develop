@@ -1,0 +1,87 @@
+body {
+    font-size: 16px;
+    /* color: #DE5842; */
+    color: 000;
+    /* background-color: #BFE1BF; */
+    background-color: #EDEDED;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/* HEADER */
+#header-nav {
+    background-color: #A2D7D8;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    /* padding-top: 25px; */
+    /* padding-bottom: 25px; */
+}
+
+.navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color: #DE5842;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+#collapsable-nav a {
+    background-color: #FCD059;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+                           text-decoration: none;
+                       }
+
+#nav-list a {
+    color: #DE5842;
+    text-align: center;
+    text-transform: uppercase;
+}
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+
+/* END HEADER */
+
+/* HOME PAGE */
+
+#main-content {
+    background-color: #BFE1BF;
+    margin: 25px 15px;
+}
+
+/* END HOME PAGE */
+
+/* FOOTER */
+
+/* MEDIA SETTINGS */
+/* Large Devices only */
+@media (min-width: 1200px) {
+}
+
+/* Medium Devices only */
+@media (min-width: 992px)  and (max-width: 1199px) {
+}
+
+/* Small Devices only */
+@media (min-width: 768px)  and (max-width: 991px) {
+}
+
+/* Extra Small Devices only */
+@media (max-width: 767px){
+}
+/* Extra Super Small Devices only */
+@media (max-width: 479px){
+}
